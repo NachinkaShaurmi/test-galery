@@ -1,0 +1,29 @@
+.gallery-set {
+  margin: 10px auto;
+  overflow-x: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // flex-grow: 1;
+  flex-wrap: wrap;
+  
+  max-width: 860px;
+  border: 2px solid #777;
+  border-radius: 2px;
+  padding: 1rem;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit , minmax(320px, 1fr));
+  grid-gap: 1em;
+  grid-auto-flow: dense;
+  // &:after {
+  //   content: '';
+  //   display: block;
+  //   padding-top: calc(100% / (16/10));
+  // }
+  
+  
+}

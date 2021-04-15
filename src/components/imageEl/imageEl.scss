@@ -1,0 +1,29 @@
+.image {
+  margin-left: 4px;
+  overflow: hidden;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .6s;
+  &:hover {
+    transform: scale(1.05);
+  }
+  
+  .image__source {
+    overflow: hidden;
+    max-height: 200px;
+    max-width: 580px;
+    object-fit: contain;
+    
+    // @media screen and (max-width: 600px) {
+    //   max-height: 160px;
+    //   max-width: 400px;
+    // }
+    // @media screen and (max-width: 420px) {
+    //   max-height: 140px;
+    //   max-width: 300px;
+    // }
+  }
+}
