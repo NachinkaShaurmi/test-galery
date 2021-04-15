@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import ImageEl from "../imageEl/ImageEl";
 import "./imagesField.scss";
-const { v4: uuidv4 } = require("uuid");
 
 const ImagesField = ({ gallery, setSelectImg }) => {
   

@@ -30,11 +30,13 @@
     }
   }
   &__image-wrapper {
+    background-color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   &__image {
+    background-color: aliceblue;
     max-width: 80%;
     max-height: 70vh;
     overflow: hidden;

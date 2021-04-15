@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./popup.scss";
 
 const Popup = ({ selectImg, setSelectImg, handleDelImg }) => {

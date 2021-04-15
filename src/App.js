@@ -20,7 +20,6 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("gallery", JSON.stringify(gallery));
-    console.log(gallery);
   }, [gallery]);
 
   return (
